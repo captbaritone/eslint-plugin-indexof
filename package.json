@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-indexof",
+  "version": "0.0.0",
+  "description": "Disallow using the method indexOf",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jordan Eldredge",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/lib/rules/*.js"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
