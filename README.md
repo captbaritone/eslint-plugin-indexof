@@ -40,7 +40,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "indexof/rule-name": [2, {exceptOn: ['_']}
+        "indexof/rule-name": [2, {exceptOn: ['_']}]
     }
 }
 ```
