@@ -18,7 +18,7 @@ var RuleTester = require("eslint").RuleTester;
 //------------------------------------------------------------------------------
 
 var ruleTester = new RuleTester();
-var errors = [{ message: "Unexpected indexOf" }];
+var errors = [{ message: "Array.indexOf() is not supported in IE < 9. If this is not an array, it may be safely ignored." }];
 
 ruleTester.run("no-indexof", rule, {
     valid: [
