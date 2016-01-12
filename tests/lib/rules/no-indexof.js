@@ -23,7 +23,9 @@ var errors = [{ message: "Unexpected indexOf" }];
 ruleTester.run("no-indexof", rule, {
     valid: [
         "myArray.myMethod(x);",
-        { code: "_.indexOf(myArray, x);", options: [{'exceptOn': ['_']}] }
+        { code: "_.indexOf(myArray, x);", options: [{'exceptOn': ['_']}] },
+        "indexOf(x);",
+        "anotherFunction(x);"
     ],
     invalid: [ {
         code: "myArray.indexOf(x);",
