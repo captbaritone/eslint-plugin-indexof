@@ -1,5 +1,7 @@
 # eslint-plugin-indexof
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/captbaritone/eslint-plugin-indexof.svg)](https://greenkeeper.io/)
+
 Disallow using the method indexOf.
 
 __Note:__ This plugin will likely cause many false positives. For example,
